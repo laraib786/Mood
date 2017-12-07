@@ -1,0 +1,421 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="lib/easing/easing.js"></script>
+<title>MOOD</title>
+<script>
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1){  
+    $('header').addClass("sticky");
+  }
+  else{
+    $('header').removeClass("sticky");
+  }
+});
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 500){  
+    $('.top-scroll').addClass("shows");
+  }
+  else{
+    $('.top-scroll').removeClass("shows");
+  }
+});
+
+function msg1() {
+    document.getElementById('none1').style.display = "block";
+	document.getElementById('btn1').style.display = "none";
+}
+function msg2() {
+    document.getElementById('none2').style.display = "block";
+	document.getElementById('btn2').style.display = "none";
+}
+function msg3() {
+    document.getElementById('none3').style.display = "block";
+	document.getElementById('btn3').style.display = "none";
+}
+function msg4() {
+    document.getElementById('none4').style.display = "block";
+	document.getElementById('btn4').style.display = "none";
+}
+function msg5() {
+    document.getElementById('none5').style.display = "block";
+	document.getElementById('btn5').style.display = "none";
+}
+function msg6() {
+    document.getElementById('none6').style.display = "block";
+	document.getElementById('btn6').style.display = "none";
+}
+</script>
+</head>
+
+<body>
+<header>
+	<div class="logo">
+    	<img src="assets/img/site-logo.png">
+    </div>
+    <div class="nav-bar">
+    	<ul>
+			<li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#quality">QUALITY</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#journal">JOURNAL</a></li>
+            <li><a href="#latest">LATEST</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </div>
+</header>
+<div  id="header">
+<div class="slider1" id="home"> 
+	<h2>Newest Interior Template</h2>
+    <h1>WOODPECKER</h1>
+    <div class="view-btn">
+    	<a href="#">VIEW MORE</a><i class="fa fa-angle-double-right"></i>
+    </div>
+</div>
+</div>
+
+<div class="bg-clr" id="about">
+    <div class="welcome-img">
+    	<img src="assets/img/about-img-bg.jpg">
+    </div>
+    <div class="about">
+    	<h1>ABOUT <br> US</h1>
+    </div>
+    <div class="welcome">
+    	<h1>WELCOME</h1>
+        <a>Woodpecker is a team of professionals in the wood processing and the creation of wooden furniture of the highest class. We are a family of artisans and designers who believe that to make things well, you must put your heart in it. Unique, quality wood products you will keep forever. We are glad to have you around!
+<br><br>
+Our team takes over everything from an idea and concept developement to realization. We believe in traditions and incorporate them within our innovations. All our projects incorporate a unique artistic image and functional solutions. Client is the soul of the project. Our main goal is to illustrate his/her values and individually through design. Our clients are daring and successful people, businessmen and celebritiesm IT companies and largest banks, media companies and creative agencies, store and restaurant chains, international developing companies, educational centers and public institutions. All our clients have one prevailing trait - they are bold and modern, they like to stay ahead of trendsm and work with the best.<br><br>
+Subscribe to our email list or follow for updates<br>
+<span>hello@woodpecker.com</span>
+</a><br>
+<a class="social">FACEBOOK / TWITTER / BEHANCE / INSTGAGRAM</a>
+    </div>
+</div>
+<div class="slider2 clearfix" id="quality"> 
+	<div class="container">
+    <h1>WE MAKE<br>GOOD STUFF</h1>
+    <img src="assets/img/stuff.jpg">
+    <div class="one-third">
+    	<div class="good-stuff">
+        	 <i class="fa fa-home"></i>
+             <h2>ARCHITECTURAL PLANNING</h2>
+             <a>We design in a way, that every square meter justifies itselft, We create energetic and lively architecture, Places one longs to return to.</a>
+        </div>
+    </div>
+        <div class="one-third">
+    	<div class="good-stuff">
+        	 <i class="fa fa-edit"></i>
+             <h2>INTERIOR DESIGN</h2>
+             <a>Mixing styles, while incorporating custom designed wood products. Living throught design process and making it comfortable for life.</a>
+        </div>
+    </div>
+        <div class="one-third">
+    	<div class="good-stuff">
+        	 <i class="fa fa-gift"></i>
+             <h2>PRODUCT DESIGN</h2>
+             <a>Mixing styles, while incorporating custom designed wood products. Living throught design process and making it comfortable for life.</a>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="slider3 clearfix" id="portfolio">
+	<div class="container clearfix">
+  	    <h1>OUR<br>AWESOME GALLERY</h1>
+        <div class="one-third">
+            <div class="hall">
+            	<img src="assets/img/gallery-1.jpg">
+                <h2><span>Hallway</span></h2>
+            </div><!-- hall -->
+            <hr class="gape">
+             <div class="hall">
+            	<img src="assets/img/gallery-2.jpg">
+                <h2><span>Hallway</span></h2>
+            </div><!-- hall -->
+        </div>
+        <div class="one-third">
+             <div class="hall">
+            	<img src="assets/img/gallery-3.jpg">
+                <h2><span>Hallway</span></h2>
+            </div><!-- hall -->
+            <hr class="gape">
+             <div class="hall">
+            	<img src="assets/img/gallery-4.jpg">
+                <h2><span>Hallway</span></h2>
+            </div><!-- hall -->
+            <hr class="gape">
+             <div class="hall">
+            	<img src="assets/img/gallery-5.jpg">
+                <h2><span>Hallway</span></h2>
+            </div><!-- hall -->
+        </div>
+        <div class="one-third">
+             <div class="hall">
+            	<img src="assets/img/gallery-6.jpg">
+                <h2><span>Hallway</span></h2>
+            </div><!-- hall -->
+            <hr class="gape">
+             <div class="hall">
+            	<img src="assets/img/gallery-7.jpg">
+                <h2><span>Hallway</span></h2>
+            </div><!-- hall -->
+        </div>
+    </div>
+    <div class="btn">
+    <input type="button" value="LOAD MORE" class="load-btn"/>
+    </div>
+</div>
+<div class="bg-clr-1 clearfix" id="journal">
+<div class="container1 clearfix">
+    <img src="assets/img/says.jpg">
+        <div class="project">
+    		<h1>PROJECTS</h1>
+	    </div>
+	<h1>INTERIOR<br>SAYS<br>WHO YOU<br>ARE</h1>
+
+    <a>Vestibulum mollis varius massa,vitaescelerisque felis<br>
+imperdietvitae.Vivamus auctorvel enim suscipit ultrices. Cum<br>
+sociis natoque penatibus et magnis dis parturient montes,<br>
+nascetur ridiculus mus.Fusce egestas diam eget mollis sodales.<br>
+Mauris feugiatfeugiat nisi, quis luctus lacus rhoncus non.<br>
+Donec eu justo lacus.Cras eu velitgravi, interdum turpis at,<br>
+auctor eros.Suspendisse eget placerat nulla. Nam pretium<br>
+elementum mauris ut ullamcorper.Vestibulum blandit lectus<br>
+diam, necvestibulum mi dignissim ac. Curabitur a pharetra<br>
+magna. Duis pulvinar nectortor a pharetra. Nam viverra,lorem<br>
+vel blanditsuscipit, odio mi tincidunt ipsum, eget vulputate<br>
+dolor erat eget lacus.Sed eleifend soda. ipsum, non convallis<br>
+la cus aliquet vitae. Duis pharetra a nibh nectempor. 
+</a>
+<ul>
+	<li><a href="#" title="Facebook">FACEBOOK</a></li>
+    <li><a>/</a></li>
+    <li><a href="#" title="Twitter">TWIITER</a></li>
+    <li><a>/</a></li>
+    <li><a href="#" title="Google Plus">GOOGLE+</a></li>
+</ul>
+</div><!-- container1 clearfix -->
+<div class="container">
+	<div class="number">
+    	<div class="z3"><span>03</span><span class="two">/03</span></div>
+    </div>
+</div>
+
+</div>
+<div class="slider4 clearfix" id="latest">
+	<div class="container clearfix">
+  	    <h1>LATEST<br>PUBLICATIONS</h1>
+        <div class="one-third">
+        	<div class="latest clearfix">
+            	<div class="scale he1">
+                	<img src="assets/img/latest-1.jpg">
+                </div>
+                <div class="latest-detail clearfix">
+                	<div class="latest-container clearfix">
+                    <h2>SWEETEST CAFE</h2>
+                    <div class="line">
+                    &nbsp;
+                    </div>
+                    <a>June 09, 201 / by Author / 3 Comments</a><br>
+                    <a href="#" class="detail">Integer nec rutrum urna. Nullam imperdiet tortor ultrices mattis aliquam. <span id="none1">Donec et effic risus, ac aliquam tellus. Fuece nec feugiat ex.</span></a>
+		  			<div class="btn1">
+                    	<input type="button" value="READ MORE" class="read-btn" id="btn1" onClick="msg1()">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="gape">
+            <div class="latest clearfix">
+            	<div class="scale he1">
+                	<img src="assets/img/latest-2.jpg">
+                </div>
+                <div class="latest-detail clearfix">
+                	<div class="latest-container clearfix">
+                    <h2>LOFT IDEAS</h2>
+                    <div class="line">
+                    &nbsp;
+                    </div>
+                    <a>June 09, 201 / by Author / 3 Comments</a><br>
+                    <a href="#" class="detail">Integer nec rutrum urna. Nullam imperdiet tortor ultrices mattis aliquam. <span id="none2">Donec et effic risus, ac aliquam tellus. Fuece nec feugiat ex.</span></a>
+		  			<div class="btn1">
+                    	<input type="button" value="READ MORE" class="read-btn" id="btn2" onClick="msg2()">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="one-third">
+        	<div class="latest clearfix">
+            	<div class="scale he1">
+                	<img src="assets/img/latest-3.jpg">
+                </div>
+                <div class="latest-detail clearfix">
+                	<div class="latest-container clearfix">
+                    <h2>SWEETEST DREAMS IN NEW HOME</h2>
+                    <div class="line">
+                    &nbsp;
+                    </div>
+                    <a>June 09, 201 / by Author / 3 Comments</a><br>
+                    <a href="#" class="detail">Integer nec rutrum urna. Nullam imperdiet tortor ultrices mattis aliquam. <span id="none3">Donec et effic risus, ac aliquam tellus. Fuece nec feugiat ex.</span></a>
+		  			<div class="btn1">
+                    	<input type="button" value="READ MORE" class="read-btn" id="btn3" onClick="msg3()">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="gape">
+            <div class="latest clearfix">
+            	<div class="scale he1">
+                	<img src="assets/img/latest-4.jpg">
+                </div>
+                <div class="latest-detail clearfix">
+                	<div class="latest-container clearfix">
+                    <h2>EVERY THING IN DETAIL</h2>
+                    <div class="line">
+                    &nbsp;
+                    </div>
+                    <a>June 09, 201 / by Author / 3 Comments</a><br>
+                    <a href="#" class="detail">Integer nec rutrum urna. Nullam imperdiet tortor ultrices mattis aliquam. <span id="none4">Donec et effic risus, ac aliquam tellus. Fuece nec feugiat ex.</span></a>
+		  			<div class="btn1">
+                    	<input type="button" value="READ MORE" class="read-btn" id="btn4" onClick="msg4()">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="one-third">
+        	<div class="latest clearfix">
+            	<div class="scale he1">
+                	<img src="assets/img/latest-5.jpg">
+                </div>
+                <div class="latest-detail clearfix">
+                	<div class="latest-container clearfix">
+                    <h2>STORY ABOUT MINIMALISM</h2>
+                    <div class="line">
+                    &nbsp;
+                    </div>
+                    <a>June 09, 201 / by Author / 3 Comments</a><br>
+                    <a href="#" class="detail">Integer nec rutrum urna. Nullam imperdiet tortor ultrices mattis aliquam. <span id="none5">Donec et effic risus, ac aliquam tellus. Fuece nec feugiat ex.</span></a>
+		  			<div class="btn1">
+                    	<input type="button" value="READ MORE" class="read-btn" id="btn5" onClick="msg5()">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="gape">
+            <div class="latest clearfix">
+            	<div class="scale he1">
+                	<img src="assets/img/latest-6.jpg">
+                </div>
+                <div class="latest-detail clearfix">
+                	<div class="latest-container clearfix">
+                    <h2>OLD BUILDINGS RESUSCITATION</h2>
+                    <div class="line">
+                    &nbsp;
+                    </div>
+                    <a>June 09, 201 / by Author / 3 Comments</a><br>
+                    <a href="#" class="detail">Integer nec rutrum urna. Nullam imperdiet tortor ultrices mattis aliquam. <span id="none6">Donec et effic risus, ac aliquam tellus. Fuece nec feugiat ex.</span></a>
+		  			<div class="btn1">
+                    	<input type="button" value="READ MORE" class="read-btn" id="btn6" onClick="msg6()">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>
+<div class="bg-clr-2" id="contact">
+    <div class="welcome-img">
+    	<img src="assets/img/contact-img-bg.jpg" height="1120">
+    </div>
+    <div class="contact-about">
+    	<h1>CONTACT</h1>
+    </div>
+    <div class="contact">
+    <form>
+    	<textarea placeholder="Your Message. *" required></textarea>
+        <input type="text" placeholder="Your Name. *" required/>
+        <input type="text" placeholder="Your Email. *" required/>
+        <input type="submit" value="SEND MESSAGE" class="load-btn"/>
+    </form>
+    <h1>CONTACT INFO</h1>
+    <a>Nunc odio mauris, posuere eget tempor non, iaculis a urna. Mauris consequat mauris eget tincidunt tempor. Etiam sed fringilla mi, vel lectus magna. Nulla pretium pretium auctor. Curabitur ornare magna commodo.<br><br>121 King Street, Melbourne Victoria 300 Australia<br><br>+1 (800) 456 37 96<br><br><span>email@gt2themes.com</span></a>
+    <h1>FOLLOW & SHARE</h1>
+    <ul>
+    	<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+        <li><a href="#"><i class="fa fa-delicious"></i></a></li>
+        <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+        <li><a href="#"><i class="fa fa-flickr"></i></a></li>
+    </ul>
+    </div>
+</div>
+<footer>
+	<div class="logo">
+   	<img src="assets/img/site-logo.png">
+    </div>
+    <h1>All Rights Reserved.</h1>
+</footer>
+<div class="top-scroll">
+	<a href="#header"><i class="fa fa-angle-up" title="Click To Scroll Up"></i></a>
+</div>
+<!--
+<div class="check">
+	<img src="assets/img/check1.gif">
+    <img src="assets/img/check2.gif">
+</div>
+-->
+<script>
+// Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+</script>
+</body>
+</html>
